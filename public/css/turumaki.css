@@ -16,6 +16,7 @@ ul.menu{
 	background:#2a9eeb; /*#00FFFF;←水色*/
 	padding: 0;
 	text-align:center;
+	box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.5);
 }
 ul.menu li{
 	display:inline-block;
