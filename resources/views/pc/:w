@@ -13,7 +13,6 @@
     <script src="JavaScriptファイルのパス"></script>
  </head>
  <body>
- <h1 class="titles">クリーニングWAVE　弦巻店</h1>
  <!--メニューバー-->
   <nav>
    <ul class="menu">
@@ -24,7 +23,6 @@
       <li><a href="#"><img src="{{ asset('img/menupic5.png') }}"width="60px" height="50px">千歳船橋店について</a></li>
    </ul>
   </nav>
-  <!--スライドショー-->
    <ul class="slider">
       <img src="{{ asset('img/pcplate1.png') }}">
       <img src="{{ asset('img/pcplate2.png') }}">
