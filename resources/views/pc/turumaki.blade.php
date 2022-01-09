@@ -42,14 +42,17 @@
       <div class="storecontent">
        <img src="{{ asset('img/store.jpg') }}">
        <h3>キレイな仕上げを目指します</h3>
+     	<p>シミ、汚れご相談下さい!シミの種類によって処理方法が違います。シミの原因を教えてください</p>
       </div> 
       <div class="storecontent">
-       <img src="{{ asset('img/store2.jpg') }}">
-       <h3>そのシミ、プロにお任せください</h3>
+        <img src="{{ asset('img/store2.jpg') }}">
+        <h3>そのシミ、プロにお任せください</h3>
+        <p>シミを付けてしまったらいじらず、いじらずそのままの状態でお待ちください。</p><p>自己流で取ろうとすることでかえってシミを広げてしまったりシミを取りずらくしてしまいます。</p>
       </div>
       <div class="storecontent">
        <img src="{{ asset('img/store3.jpg') }}">
        <h3>その修理、受付でご相談ください</h3>
+       <p>キズ、破れ等の修理、丈詰め・寸法直し等のお直し、かけはぎ等幅広くお客様のご要望にお応えします</p>
       </div>
     </dl>
   </div>
