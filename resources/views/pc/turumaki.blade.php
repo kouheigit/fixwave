@@ -29,14 +29,25 @@
   </div>
   <!--スライドショー-->
     <ul class="slider">
-      <img src="{{ asset('img/pcplate1.png') }}">
-      <img src="{{ asset('img/pcplate2.png') }}">
-      <img src="{{ asset('img/pcplate3.png') }}">
+      <img src="{{ asset('img/pcplate1.jpg') }}">
+      <img src="{{ asset('img/pcplate2.jpg') }}">
+      <img src="{{ asset('img/pcplate3.jpg') }}">
  <!--- <img src="{{ asset('img/plate4.png') }}">-->
     </ul>
-   <div id="content2">
-     <div class="storecontent">
-     </div>
-   </div>
+ <!--店舗情報-->
+
+  <div id="content2">
+    <dl class="store">
+      <div class="storecontent">
+       <img src="{{ asset('img/store.jpg') }}">
+      </div> 
+      <div class="storecontent">
+       <img src="{{ asset('img/store2.jpg') }}">
+      </div>
+      <div class="storecontent">
+       <img src="{{ asset('img/store3.jpg') }}">
+      </div>
+    </dl>
+  </div>
  </body>
 </html>

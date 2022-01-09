@@ -70,7 +70,7 @@ ul.menu li a img{
 	justify-content: space-around;
 }
 .storecontent img{
-	width:300px;
-	height:300px;
+	width:200px;
+	height:200px;
 }
 
