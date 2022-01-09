@@ -62,21 +62,14 @@ ul.menu li a img{
 	padding-top:20px;
 	padding-bottom:40px;
 	margin: 40px auto 0;
-	border: 1px dashed #ccc;/*【重要】調整用破線、storeが終わったら消す*/
+	border: 1px dashed #ccc;
 	text-align: center;
 }
 #content2 h1{
 }
 #content2 h2{
-display: inline-block;/*文字に合わせた横線の幅にする*/
-background: linear-gradient(transparent 70%, #FFFF00 0%);
+background: linear-gradient(transparent 70%, #ff7f7f 0%);
 }
-
-#content2 h3{
-display: inline-block;/*文字に合わせた横線の幅にする*/
-background: linear-gradient(transparent 70%, #FFFF00 0%);
-}
-
 .store{
 	display:flex;
 	margin-top:100px;
@@ -84,6 +77,6 @@ background: linear-gradient(transparent 70%, #FFFF00 0%);
 }
 .storecontent img{
 	width:300px;
-	height:250px;
+	height:300px;
 }
 
