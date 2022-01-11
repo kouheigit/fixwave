@@ -32,8 +32,14 @@
       <img src="{{ asset('img/pcplate1.jpg') }}">
       <img src="{{ asset('img/pcplate2.jpg') }}">
       <img src="{{ asset('img/pcplate3.jpg') }}">
- <!--- <img src="{{ asset('img/plate4.png') }}">-->
+      <img src="{{ asset('img/pcplate4.png') }}">
     </ul>
+   @if ($value == !null)
+    <div class="tokuhos">
+      <h1 class="tokuho"> {{$value}}</h1>
+    </div>
+    @else
+    @endif
  <!--店舗情報-->
   <div id="content2">
     <h1>クリーニングWAVE　弦巻店</h1>
@@ -53,7 +59,7 @@
       </div>
       <div class="storecontent">
        <img src="{{ asset('img/store3.jpg') }}">
-       <h3>その修理、受付でご相談ください</h3>
+       <h3>修理、受付でご相談ください</h3>
        <p>キズ、破れ等の修理、丈詰め・寸法直し等のお直し、かけはぎ等幅広くお客様のご要望にお応えします</p>
       </div>
     </dl>
