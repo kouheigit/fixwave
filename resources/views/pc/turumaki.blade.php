@@ -29,10 +29,10 @@
   </div>
   <!--スライドショー-->
     <ul class="slider">
-      <img src="{{ asset('img/pcplate1.jpg') }}">
       <img src="{{ asset('img/pcplate2.jpg') }}">
-      <img src="{{ asset('img/pcplate3.jpg') }}">
+      <img src="{{ asset('img/pcplate1.jpg') }}">
       <img src="{{ asset('img/pcplate4.png') }}">
+      <img src="{{ asset('img/pcplate3.jpg') }}">
     </ul>
    @if ($value == !null)
     <div class="tokuhos">
