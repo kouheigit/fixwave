@@ -61,7 +61,7 @@
       <div class="storecontent">
         <img src="{{ asset('img/store2.jpg') }}">
         <h3>そのシミ、プロにお任せください</h3>
-        <p>シミを付けてしまったらいじらずそのままの状態でお待ちください。</p><p>自己流で取ろうとすることでかえってシミを広げてしまったりシミを取りずらくしてしまいます。</p>
+        <p>シミを付けてしまったらいじらずそのままの状態でお持ちこみください。</p><p>自己流で取ろうとすることでかえってシミを広げてしまったりシミを取りずらくしてしまいます。</p>
       </div>
       <div class="storecontent">
        <img src="{{ asset('img/store3.jpg') }}">
@@ -73,16 +73,17 @@
   <!--４つのサービス-->
   <div id="content3">
      <h1>４つのサービス</h1>
+     <h1 class="servicetitle">クリーニングWAVE4つのサービス</h1>
    <dl class="service">
     <div class="servicecontent">
       <h2 class="title" >サービスその1</h2>
       <img src="{{ asset('img/service.png') }}">
-      <p>サービスその１あああああああああああああ</p>
+      <p>当店は YシャツもWクリーニング無料、袖、袖口の皮脂汚れ水洗いだけでは落ちません。<br>油性と水溶性の汚れ、匂いをしっかりと落としてスッキリさっぱり仕上げます。</p>
     </div>
     <div class="servicecontent">
       <h2 class="title" >サービスその2</h2>
       <img src="{{ asset('img/service2.png') }}">
-      <p>サービスその2あああああああああああああ</p>
+      <p>Yシャツセール(立体)弦巻店は毎週火曜日、水曜日におこないます。<br>但し特殊な品物は除きます。</p>
     </div>
     </dl>
 
@@ -90,12 +91,14 @@
      <div class="servicecontent">
       <h2 class="title" >サービスその3</h2>
       <img src="{{ asset('img/service3.png') }}">
-      <p>サービスその3あああああああああああああ</p>
+      <p>キレイな仕上げを目指します!シミ・汚れ当店にご相談ください。シミを付けてしまったらいじらずそのままの状態でお持ちください。自己流で取ろうとすることでかえってシミを広げてしまったりシミ
+を取りずらくしてしまいます。</p>
     </div>
     <div class="servicecontent">
       <h2 class="title" >サービスその4</h2>
       <img src="{{ asset('img/service4.png') }}">
-      <p>サービスその4あああああああああああああ</p>
+      <p>オーバー類、セーター、カーディガン、マフラー等のニット類、<br>コート、ダウン、ジャンパー類の袖、袖口のニット部分<br>毛玉のふちなどの毛玉を無料でお取りします。</p>
+</p>
     </div>
     </dl>
   </div>

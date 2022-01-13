@@ -120,8 +120,11 @@ span.pic1{
         padding-top:30px;
         padding-bottom:40px;
         margin: 40px auto 0;
-        border: 1px dashed #ccc;/*【重要】調整用破線、storeが終わったら消す*/
         text-align: center;
+}
+h1.servicetitle{
+	 display: inline-block;
+	 background: linear-gradient(transparent 70%, #FFFF66 0%);
 }
 h2.title {
 	 margin:30px;
@@ -143,5 +146,6 @@ h2.title {
         justify-content:space-around;
 	margin-top:100px;
 }
-.servicecontent{
+.servicecontent p{
+	font-weight:bold;
 }
