@@ -16,16 +16,16 @@ class storeController extends Controller
         金　・・・　5
 	土　・・・　6*/
 	/* いじったディレクトリ一覧→app config resources routes routes  */
-	      $day = new Carbon();
-              $value = $day->dayOfWeek;/*曜日番号を取得*/
+	     $day = new Carbon();
+             $value = $day->dayOfWeek;/*曜日番号を取得*/
 
 	     if($value==2){
-
-		     $value="本日は火曜日!!弦巻店Yシャツセールデー";
+                     //火曜日
+		     $value=2;
 
 	        }elseif($value==3){
-
-		     $value="本日は水曜日!!弦巻店Yシャツセールデー";
+                     //水曜日
+		     $value=3;
 
 		}else{
 

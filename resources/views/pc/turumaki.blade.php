@@ -34,9 +34,15 @@
       <img src="{{ asset('img/pcplate4.png') }}">
       <img src="{{ asset('img/pcplate3.jpg') }}">
     </ul>
-   @if ($value == !null)
+   @if ($value == 2)
     <div class="tokuhos">
-      <h1 class="tokuho"> {{$value}}</h1>
+      <!--<h1 class="tokuho"> {{$value}}</h1>-->
+      <img src="{{ asset('img/saletue.jpg') }}">
+    </div>
+    @elseif ($value == 3)
+     <div class="tokuhos">
+      <!--<h1 class="tokuho"> {{$value}}</h1>-->
+      <img src="{{ asset('img/salewed.jpg') }}">
     </div>
     @else
     @endif
