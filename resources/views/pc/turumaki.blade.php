@@ -70,5 +70,34 @@
       </div>
     </dl>
   </div>
+  <!--４つのサービス-->
+  <div id="content3">
+     <h1>４つのサービス</h1>
+   <dl class="service">
+    <div class="servicecontent">
+      <h2 class="title" >サービスその1</h2>
+      <img src="{{ asset('img/service.png') }}">
+      <p>サービスその１あああああああああああああ</p>
+    </div>
+    <div class="servicecontent">
+      <h2 class="title" >サービスその2</h2>
+      <img src="{{ asset('img/service2.png') }}">
+      <p>サービスその2あああああああああああああ</p>
+    </div>
+    </dl>
+
+   <dl class="service1">
+     <div class="servicecontent">
+      <h2 class="title" >サービスその3</h2>
+      <img src="{{ asset('img/service3.png') }}">
+      <p>サービスその3あああああああああああああ</p>
+    </div>
+    <div class="servicecontent">
+      <h2 class="title" >サービスその4</h2>
+      <img src="{{ asset('img/service4.png') }}">
+      <p>サービスその4あああああああああああああ</p>
+    </div>
+    </dl>
+  </div>
  </body>
 </html>
