@@ -144,8 +144,33 @@ h2.title {
 .service1{
         display:flex;
         justify-content:space-around;
-	margin-top:100px;
+	margin-top:50px;
 }
 .servicecontent p{
 	font-weight:bold;
 }
+#content4{
+	 background:#fff;
+        width:100%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 40px auto 0;
+        text-align: center;
+}
+.map{
+	background:#fff;
+        width:90%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 40px auto 0;
+        text-align: center;
+}
+.mapall{ 
+	display:flex;
+        justify-content:space-around;
+        margin-top:50px;	
+}
+.mapcontent h2{
+	margin-top:30px;
+}
+
