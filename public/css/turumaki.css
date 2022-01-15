@@ -150,7 +150,7 @@ h2.title {
 	font-weight:bold;
 }
 #content4{
-	 background:#fff;
+	 background:#CCFFFF;
         width:100%;
         padding-top:30px;
         padding-bottom:40px;
@@ -158,7 +158,7 @@ h2.title {
         text-align: center;
 }
 .map{
-	background:#fff;
+	background:#CCFFFF;
         width:90%;
         padding-top:30px;
         padding-bottom:40px;
@@ -171,6 +171,16 @@ h2.title {
         margin-top:50px;	
 }
 .mapcontent h2{
-	margin-top:30px;
+	margin-top:22px;
 }
-
+.mapcontent ul{
+	list-style: none;
+}
+.mapcontent ul li.first{
+	font-size:30px;
+}
+.mapcontent ul li{
+	margin-top:30px;
+	font-weight:bold;
+	font-size:22px;
+}
