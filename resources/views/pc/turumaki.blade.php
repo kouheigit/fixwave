@@ -104,25 +104,25 @@
  <!--店舗情報-->
   <div id="content4">
    <div class="map">
-      <h1>店舗情報</h1>
-    <dl class="mapall">
+     <h1>店舗情報</h1>
+     <dl class="mapall">
+     <div class="mapcontent">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.6399381790043!2d139.6517688152576!3d35.636601980204624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4813430063f%3A0x45c516be21df7ad6!2z44CSMTU0LTAwMTYg5p2x5Lqs6YO95LiW55Sw6LC35Yy65bym5be777yS5LiB55uu77yZ4oiS77yR77yTIOmnkumbu-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1642133983133!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     <div class="mapcontent">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.6399381790043!2d139.6517688152576!3d35.636601980204624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4813430063f%3A0x45c516be21df7ad6!2z44CSMTU0LTAwMTYg5p2x5Lqs6YO95LiW55Sw6LC35Yy65bym5be777yS5LiB55uu77yZ4oiS77yR77yTIOmnkumbu-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1642133983133!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-   </div>
-   <div class="mapcontent">
-     <ul>
-      <li class="first">クリーニングWAVE弦巻店</li>
-      <li>【営業時間】10時~19時</li>
-      <li>☎︎03-5477-1613</li>
-      <li>〒154-0016東京都世田谷区弦巻２丁目9-13駒電ビル１階</li>
-    </ul>
-     <!--
-    <h2 class="tel">☎︎03-5477-1613</h2>
-    <h2>〒154-0016東京都世田谷区弦巻２丁目9-13駒電ビル１階</h2>-->
-   </div>
-   </div>
-  </dl>
- </div>
+      <ul>
+        <li class="first">クリーニングWAVE弦巻店</li>
+        <li>【営業時間】10時~19時</li>
+        <li>☎︎03-5477-1613</li>
+        <li>〒154-0016東京都世田谷区弦巻２丁目9-13駒電ビル１階</li>
+      </ul>
+      <!--
+        <h2 class="tel">☎︎03-5477-1613</h2>
+        <h2>〒154-0016東京都世田谷区弦巻２丁目9-13駒電ビル１階</h2>-->
+     </div>
+    </div>
+   </dl>
+  </div>
  </div>
  </body>
 </html>
