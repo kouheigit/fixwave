@@ -188,4 +188,18 @@ h2.title {
 	font-weight:bold;
 	font-size:22px;
 }
-
+.mapcontent ul li.last{
+	font-weight:normal;
+	font-size:15px;
+}
+footer{
+	width: 100%;
+        background:#000080;
+	text-align:center;
+}
+footer dd{
+	color:#fff;
+}
+footer dd.point{
+        color:#000080;
+}
