@@ -125,5 +125,10 @@
    </dl>
   </div>
  </div>
+ <footer>
+   <dd class="point">.</dd>
+   <dd>Copyright © 2022 CLEANING WAVE All Rights Reserved.</dd>
+   <dd class="point">.</dd>
+ <footer>
  </body>
 </html>
