@@ -176,6 +176,10 @@ h2.title {
 .mapcontent ul{
 	list-style: none;
 }
+
+.mapcontent span.dayoff{
+	color:red;
+}
 .mapcontent ul li.first{
 	font-size:30px;
 }
@@ -184,3 +188,4 @@ h2.title {
 	font-weight:bold;
 	font-size:22px;
 }
+
