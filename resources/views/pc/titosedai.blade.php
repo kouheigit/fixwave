@@ -35,15 +35,15 @@
       <img src="{{ asset('img/pcplate5.png') }}">
       <img src="{{ asset('img/pcplate3.jpg') }}">
     </ul>
-   @if ($value ?? '' == 2)
+   @if ($value == 4)
     <div class="tokuhos">
       <!--<h1 class="tokuho"> {{$value ?? ''}}</h1>-->
-      <img src="{{ asset('img/saletue.jpg') }}">
+      <img src="{{ asset('img/salethu.jpg') }}">
     </div>
-    @elseif ($value ?? '' == 3)
+    @elseif ($value == 5)
      <div class="tokuhos">
       <!--<h1 class="tokuho"> {{$value ?? ''}}</h1>-->
-      <img src="{{ asset('img/salewed.jpg') }}">
+      <img src="{{ asset('img/salefri.jpg') }}">
     </div>
     @else
     @endif

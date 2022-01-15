@@ -18,7 +18,6 @@ class storeController extends Controller
 	/* いじったディレクトリ一覧→app config resources routes routes  */
 	     $day = new Carbon();
              $value = $day->dayOfWeek;/*曜日番号を取得*/
-
 	     if($value==2){
                      //火曜日
 		     $value=2;
@@ -37,7 +36,22 @@ class storeController extends Controller
 
 	public function titosedai(Request $request)
 	{
+	    $day = new Carbon();
+             $value = $day->dayOfWeek;/*曜日番号を取得*/
+             if($value==4){
+                     //木曜日
+                     $value=4;
+
+                }elseif($value==5){
+                     //金曜日
+                     $value=5;
+
+                }else{
+
+                        $value = null;
+
+              }
 		/*曜日のロジックは上と同じにするな*/
-		return view('pc.titosedai');
+		return view('pc.titosedai',compact('value'));
 	}
 }
