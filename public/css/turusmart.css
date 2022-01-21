@@ -1,0 +1,36 @@
+@charset"UTF-8";
+*{box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+body{
+        background-color:#ededed; /*#fcfcfc;/* #f7f5f5; bodyの背景、全てのページの背景色にする*/
+}
+
+#content2{
+        width:95%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 40px auto 0;
+        text-align: center;
+}
+ul img{
+	text-align:center;
+	width:150px;
+	height:150px;
+}
+.slider{
+    margin: 50px auto;/*配置位置*/
+   /* width:90%;*/
+    /*width:80%;/*ここで大きさを調整する*/
+}
+.slider img{
+  /* height: 500px;*/
+   height: auto;
+   /*width: 100%;*/
+}
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}

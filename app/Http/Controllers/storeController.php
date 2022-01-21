@@ -54,4 +54,9 @@ class storeController extends Controller
 		/*曜日のロジックは上と同じにするな*/
 		return view('pc.titosedai',compact('value'));
 	}
+
+	public function turusmart(Request $request)
+	{
+		return view('pc.turusmart');
+	}
 }
