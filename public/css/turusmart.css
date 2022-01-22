@@ -1,16 +1,16 @@
 @charset"UTF-8";
-*{box-sizing: border-box;
+*{
+   box-sizing: border-box;
    margin: 0px;
    padding: 0px;
 }
 body{
-        background-color:#ededed; /*#fcfcfc;/* #f7f5f5; bodyの背景、全てのページの背景色にする*/
+       background-color:#f7f7f7;  /*bodyの背景、全てのページの背景色にする*/
 }
 
 #content2{
         width:95%;
         padding-top:30px;
-        padding-bottom:40px;
         margin: 40px auto 0;
         text-align: center;
 }
@@ -33,4 +33,62 @@ ul img{
 .slick-prev:before,
 .slick-next:before {
     color: #000;
+}
+
+#content3{
+	width:95%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 10px auto 0;
+        text-align: center;
+}
+p.contenttitle1{
+	font-size:20px;
+	font-weight: bold; 
+}
+p.text{
+	display: inline-block;/*文字に合わせた横線の幅にする*/
+        background: linear-gradient(transparent 70%, #FFFF00 0%);
+	font-size:13px;
+	font-weight: bold;
+}
+#content4{
+        /*background:#CCFFFF; 後で消せ*/
+        width:95%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 10px auto 0;
+        text-align: center;
+}
+p.text1{
+        font-size:13px;
+      /*  font-weight: bold;*/
+	padding-bottom:30px;
+}
+p.text2{
+        font-size:13px;
+ /*       font-weight: bold;*/
+}
+#content5{
+        /*'background:#CCFFFF;  後で消せ*/
+        width:95%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 10px auto 0;
+        text-align: center;
+}
+.fiveitem{
+	margin-top:50px;
+}
+#content5 img{
+    width:  180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 9px solid #FFFF00;
+}
+p.fivetitle{
+	 margin-top:10px;
+	 font-size:15px;
+         font-weight: bold;
+	 padding-bottom:10px;
 }
