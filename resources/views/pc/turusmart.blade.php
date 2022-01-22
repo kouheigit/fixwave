@@ -55,11 +55,11 @@
     <p class="text">衣服の汚れお任せください、染み抜きのプロがいるお店</p>
   </div>
   <div id="content4">
-    <p class="text1">当店ではプロの染み抜き職人が在籍しとことんキレイに、あなたの衣服をもう一回輝かせるという二つの理念をモットーに営業してきました</p>
-   <p class="text2">妥協をしないキレイな仕上げを心がけ開業から30年弦巻のこだわりあるクリーニング店として地域に愛されてきました</p>
+    <p class="text1">当店ではプロの染み抜き職人が在籍しとことんキレイに、あなたの衣服をもう一回輝かせるという二つの理念をモットーに営業してきました。</p>
+   <p class="text2">妥協をしないキレイな仕上げを心がけ開業から30年弦巻のこだわりあるクリーニング店として地域に愛されてきました。</p>
   </div>
   <div id="content5">
-    <p class="contenttitle1">当店のサービスについて</p>
+    <p class="contenttitle1">🔹当店のサービスについて</p>
    <div class="fivecontent">
     <div class="fiveitem">
       <img class="img1"src="{{ asset('img/store.jpg') }}">
