@@ -79,5 +79,8 @@
     </div>
    </div>
   </div>
+  <div id="content6">
+    <p class="contenttitle1">🔹クリーニングWAVE4つのサービス</p>
+  </div>
   </body>
  </html>
