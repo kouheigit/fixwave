@@ -56,7 +56,26 @@ class storeController extends Controller
 	}
 
 	public function turusmart(Request $request)
-	{
-		return view('pc.turusmart');
+	{    
+	     $day = new Carbon();
+             $value = $day->dayOfWeek;/*曜日番号を取得*/
+	    
+	     if($value==2){
+                     //火曜日
+                     $value=2;
+
+                }elseif($value==3){
+                     //水曜日
+                     $value=3;
+
+                }else{
+
+                        $value = null;
+
+              }
+                return view('pc.turusmart',compact('value'));
+
+
+		//return view('pc.turusmart');
 	}
 }

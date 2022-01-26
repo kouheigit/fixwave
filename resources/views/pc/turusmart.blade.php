@@ -50,6 +50,14 @@
       <img src="{{ asset('img/plate3.jpg') }}">
     </ul>
   </div>
+  <div id="sale">
+  @if ($value == 2)
+    <img class="saleimg" src="{{ asset('img/smartthues.png') }}">
+  @elseif ($value == 3)
+     <img class="saleimg" src="{{ asset('img/smartwed.png') }}">
+  @else
+  @endif
+  </div>
   <div id ="content3">
     <p class="contenttitle1">クリーニングWAVE弦巻店</p>
     <p class="text">衣服の汚れお任せください、染み抜きのプロがいるお店</p>

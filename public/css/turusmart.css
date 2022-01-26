@@ -14,6 +14,10 @@ body{
         margin: 40px auto 0;
         text-align: center;
 }
+#sale{
+	display: flex;
+	justify-content:center;
+}
 ul img{
 	text-align:center;
 	width:150px;
@@ -34,7 +38,11 @@ ul img{
 .slick-next:before {
     color: #000;
 }
-
+img.saleimg{
+	width:200px;
+        height:150px;
+	text-align:center;
+}
 #content3{
 	width:95%;
         padding-top:30px;
