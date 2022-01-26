@@ -80,7 +80,35 @@
    </div>
   </div>
   <div id="content6">
-    <p class="contenttitle1">🔹クリーニングWAVE4つのサービス</p>
+   <p class="contenttitle1">🔹クリーニングWAVE4つのサービス</p>
+   <div class="sixitem">
+    <p class="sixtitle">サービスその1</p>
+     <img src="{{ asset('img/smartplate.png') }}">
+     <p class="sixmain">当店は YシャツもWクリーニング無料、袖、袖口の皮脂汚れ水洗いだけでは落ちません。
+油性と水溶性の汚れ、匂いをしっかりと落としてスッキリさっぱり仕上げます。</p>
+   </div>
+     <div class="sixitem">
+    <p class="sixtitle">サービスその2</p>
+     <img src="{{ asset('img/smartplate2.png') }}">
+     <p class="sixmain">Yシャツセール(立体)弦巻店は毎週火曜日、水曜日におこないます。
+但し特殊な品物は除きます。</p>
+   </div>
+     <div class="sixitem">
+    <p class="sixtitle">サービスその3</p>
+     <img src="{{ asset('img/smartplate3.png') }}">
+     <p class="sixmain">キレイな仕上げを目指します!シミ・汚れ当店にご相談ください。
+シミを付けてしまったらいじらずそのままの状態でお持ちください。
+自己流で取ろうとすることでかえってシミを広げてしまったりシミを取りずらくしてしまいます。</p>
+   </div>
+     <div class="sixitem">
+     <p class="sixtitle">サービスその4</p>
+     <img src="{{ asset('img/smartplate4.png') }}">
+     <p class="sixmain">オーバー類、セーター、カーディガン、マフラー等のニット類、
+コート、ダウン、ジャンパー類の襟、袖口のニット部分
+毛玉のふちなどの毛玉を無料でお取りします。</p>
+   </div>
+
+   </div> 
   </div>
   </body>
  </html>
