@@ -92,3 +92,11 @@ p.fivetitle{
          font-weight: bold;
 	 padding-bottom:10px;
 }
+#content6{
+       /* background:#FFFF00;  後で消せ*/
+        width:95%;
+        padding-top:30px;
+        padding-bottom:40px;
+        margin: 10px auto 0;
+        text-align: center;
+}
