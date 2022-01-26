@@ -32,10 +32,10 @@
      <label id="gnav-black" for="gnav-input"></label>
      <div id="gnav-content">
        <ul class="gnav-list">
-         <li><a href="#">トップ<br>TOP</a></li>
-         <li><a href="#">当店について<br>About us</a></li>
-         <li><a href="#">4つのサービス<br>Service</a></li>
-	 <li><a href="#">店舗情報<br>Store infomation</a></li>
+         <li><a href="#content2">トップ<br>TOP</a></li>
+         <li><a href="#content5">当店について<br>About us</a></li>
+         <li><a href="#content6">4つのサービス<br>Service</a></li>
+	 <li><a href="#map">店舗情報<br>Store infomation</a></li>
          <li><a href="#">千歳台本店について<br>Titosedai store</a></li>
        </ul>
      </div>
@@ -124,4 +124,9 @@
    </div>
   </div>
   </body>
+   <footer>
+   <dd class="point">.</dd>
+   <dd>Copyright © 2022 CLEANING WAVE All Rights Reserved.</dd>
+   <dd class="point">.</dd>
+ <footer>
  </html>
