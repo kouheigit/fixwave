@@ -24,7 +24,7 @@
        <li><a href="#content2"><img src="{{ asset('img/menupic3.png') }}"width="60px" height="60px">当店について</a></li>
        <li><a href="#content3"><img src="{{ asset('img/menupic.png') }}"width="60px" height="50px">4つのサービス</a></li>
        <li><a href="#content4"><img src="{{ asset('img/menupic4.png') }}"width="60px" height="60px">店舗情報</a></li>
-       <li><a href="#"><img src="{{ asset('img/menupic5.png') }}"width="60px" height="50px">千歳台本店について</a></li>
+       <li><a href="titosedai"><img src="{{ asset('img/menupic5.png') }}"width="60px" height="50px">千歳台本店について</a></li>
      </ul>
     </nav>
   </div>
