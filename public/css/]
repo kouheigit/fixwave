@@ -142,23 +142,7 @@ height: 100%;
 width: 100%;
 }
 p.maptitle{
-	font-size:20px;
-	font-weight:bold;
-	padding-bottom:10px;
-}
-p.subtitle {
-	font-size:20px;
-        font-weight:bold;
-        padding-bottom:10px;
-}
-p.tel{
-	margin-top:10px;
-}
-p.restday{
-	color:red;
-}
-p.address{
-	font-size:15px;
-	margin:30px;
+	font-size:10px;
 	font-weight:bold;
 }
+
