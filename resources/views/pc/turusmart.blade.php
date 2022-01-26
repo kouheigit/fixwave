@@ -106,9 +106,16 @@
      <p class="sixmain">オーバー類、セーター、カーディガン、マフラー等のニット類、
 コート、ダウン、ジャンパー類の襟、袖口のニット部分
 毛玉のふちなどの毛玉を無料でお取りします。</p>
-   </div>
-
+   </div>    
    </div> 
+  </div>
+  
+  <div id="map">
+    <p class="maptitle">店舗情報</p>
+    <div class="gmap">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.6399381790043!2d139.6517688152576!3d35.636601980204624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4813430063f%3A0x45c516be21df7ad6!2z44CSMTU0LTAwMTYg5p2x5Lqs6YO95LiW55Sw6LC35Yy65bym5be777yS5LiB55uu77yZ4oiS77yR77yTIOmnkumbu-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1642133983133!5m2!1sja!2sjp" width="100" height="auto" frameborder="0" style="border:0;" allowfullscreen></iframe>
+    </div>
+   </div>
   </div>
   </body>
  </html>
