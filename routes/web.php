@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });*/
 //Laravel8系からルーティングが変更、フルパスで記述しないと表示されない*/
-Route::get('/','App\Http\Controllers\storeController@turumaki');
-Route::get('titosedai','App\Http\Controllers\storeController@titosedai');
-Route::get('turusmart','App\Http\Controllers\storeController@turusmart');
+//Route::get('/','App\Http\Controllers\storeController@turumaki');
+//Route::get('titosedai','App\Http\Controllers\storeController@titosedai');
+//Route::get('turusmart','App\Http\Controllers\storeController@turusmart');
+Route::get('/','App\Http\Controllers\storeController@turusmart');

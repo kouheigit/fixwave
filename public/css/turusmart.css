@@ -170,6 +170,9 @@ p.address{
 	margin:30px;
 	font-weight:bold;
 }
+p.warning{
+	font-size:3px;
+}
 footer{
         width: 100%;
         background:#000080;
