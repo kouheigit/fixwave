@@ -9,6 +9,7 @@
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script><!--スライダー-->
      <script src="{{ asset('js/scroll.js') }}"></script>
+    <script src="{{ asset('js/judge.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('css/turumaki.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick-theme.css') }}">

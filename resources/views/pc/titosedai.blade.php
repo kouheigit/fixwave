@@ -16,7 +16,7 @@
  </head>
  <body>
   <div id="content">
-   <h1 class="titles">クリーニングWAVE　千歳台本店</h1>
+   <h1 class="titles">クリーニングWAVE　千歳台店</h1>
   <!--メニューバー-->
     <nav>
      <ul class="menu">
@@ -49,7 +49,7 @@
     @endif
  <!--WAVEについて-->
   <div id="content2">
-    <h1>クリーニングWAVE　千歳台本店</h1>
+    <h1>クリーニングWAVE　千歳台店</h1>
     <h2>衣服の汚れお任せください、染み抜きのプロがいるお店</h2>
     <p>当店ではプロの染み抜き職人が在籍し<span class="pic">とことんキレイに</span>、<span class="pic1">あなたの衣服をもう一回輝かせる</span>という二つの理念をモットーに妥協をしない<br>キレイな仕上げを心がけ開業から30年、弦巻のこだわりのあるクリーニング店として地域に愛されて営業してきました。</p>  
    <h2 class="subtitle">当店のサービスについて</h2>
@@ -112,7 +112,7 @@
      </div>
     <div class="mapcontent">
       <ul>
-        <li class="first">クリーニングWAVE【千歳台本店】</li>
+        <li class="first">クリーニングWAVE【千歳台店】</li>
 	<li>【営業時間】<br>月曜〜金曜日AM9:00~PM7:00<br>日曜祝日AM10:00~PM6:00<br><span class="dayoff">定休日なし</span></li>
         <li>☎︎03-3483-5572</li>
 	<li>〒157-0071 東京都世田谷区千歳台３丁目９−６<br>サングレース千歳台1階</li>

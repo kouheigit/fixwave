@@ -9,6 +9,7 @@
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script><!--スライダー-->
      <script src="{{ asset('js/scroll.js') }}"></script>
+      <script src="{{ asset('js/judge1.js') }}"></script>
      <!--CSS-->
     <link rel="stylesheet" href="{{ asset('css/titosesmart.css') }}">
     <link rel="stylesheet" href="{{ asset('css/titosemenu.css') }}">
