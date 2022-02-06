@@ -36,7 +36,7 @@
          <li><a href="#content5">当店について<br>About us</a></li>
          <li><a href="#content6">4つのサービス<br>Service</a></li>
 	 <li><a href="#map">店舗情報<br>Store infomation</a></li>
-         <li><a href="#">千歳台本店について<br>Titosedai store</a></li>
+         <li><a href="titosesmart">千歳台本店について<br>Titosedai store</a></li>
        </ul>
      </div>
    </div>

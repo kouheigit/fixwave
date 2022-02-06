@@ -21,8 +21,8 @@
  <div class="content">
   <div class="menubar">
    <dd class="interval">.</dd>
-   <dd>クリーニングWAVE 弦巻店</dd>
-   <dd class="storename">☎︎03-5477-1613</dd>
+   <dd>クリーニングWAVE 千歳台店</dd>
+   <dd class="storename">☎︎03-3483-5572</dd>
    <!--<dd>test</dd>
    <dd>test</dd>-->
   </div>
@@ -36,7 +36,7 @@
          <li><a href="#content5">当店について<br>About us</a></li>
          <li><a href="#content6">4つのサービス<br>Service</a></li>
 	 <li><a href="#map">店舗情報<br>Store infomation</a></li>
-         <li><a href="#">千歳台本店について<br>Titosedai store</a></li>
+         <li><a href="turusmart">弦巻店について<br>Tsurumaki store</a></li>
        </ul>
      </div>
    </div>
@@ -59,7 +59,7 @@
   @endif
   </div>
   <div id ="content3">
-    <p class="contenttitle1">クリーニングWAVE弦巻店</p>
+    <p class="contenttitle1">クリーニングWAVE千歳台店</p>
     <p class="text">衣服の汚れお任せください、染み抜きのプロがいるお店</p>
   </div>
   <div id="content4">
@@ -70,18 +70,18 @@
     <p class="contenttitle1">🔹当店のサービスについて</p>
    <div class="fivecontent">
     <div class="fiveitem">
-      <img class="img1"src="{{ asset('img/store.jpg') }}">
+      <img class="img1"src="{{ asset('img/titose.jpg') }}">
        <p class="fivetitle">キレイな仕上げを目指します</p>
        <p>シミ、汚れご相談下さい!シミの種類によって処理方法が違います。シミの原因を教えてください</p>
     </div>
     <div class="fiveitem">
-      <img class="img1"src="{{ asset('img/store2.jpg') }}">
+      <img class="img1"src="{{ asset('img/store3.jpg') }}">
        <p class="fivetitle">そのシミ、プロにお任せください</p>
        <p>シミを付けてしまったらいじらずそのままの状態でお持ちこみください。</p>
        <p>自己流で取ろうとすることでかえってシミを広げてしまったりシミを取りずらくしてしまいます。</p>
     </div>
     <div class="fiveitem">
-      <img class="img1"src="{{ asset('img/store3.jpg') }}">
+      <img class="img1"src="{{ asset('img/titose2.jpg') }}">
        <p class="fivetitle">修理、受付でご相談ください</p> 
        <p>キズ、破れ等の修理、丈詰め・寸法直し等のお直し、かけはぎ等幅広くお客様のご要望にお応えします。</p>
     </div>
@@ -120,15 +120,15 @@
   
   <div id="map">
     <p class="maptitle">店舗情報</p>
-    <p class="subtitle">クリーニングWAVE【弦巻店】</p>
+    <p class="subtitle">クリーニングWAVE【千歳台店】</p>
     <p>【営業時間】</p>
-    <p>月曜〜金曜日AM10:00~PM7:00<br>日曜祝日AM10:00~PM6:00</p>
-    <p class="restday">定休日金曜日</p>
-    <p class="tel">☎︎ 03-5477-1613</p>
-    <p class="address">〒154-0016<br>東京都世田谷区弦巻２丁目9-13駒電ビル１階</p>
+    <p>月曜〜金曜日AM9:00~PM7:00<br>日曜祝日AM10:00~PM6:00</p>
+    <p class="restday">定休日なし</p>
+    <p class="tel">☎︎ 03-3483-5572</p>
+    <p class="address">〒157-0071<br>東京都世田谷区千歳台３丁目９−６<br>サングレース千歳台1階</p>
     <p class="warning">※当サイトに記載されている店舗写真等の無断転載、無断使用はご遠慮ください。<br>また当店の外観写真や店舗情報等を他サイト等に転載する行為などもかたくお断りしております。</p>
    <div class="gmap">
-     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.6399381790043!2d139.6517688152576!3d35.636601980204624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f4813430063f%3A0x45c516be21df7ad6!2z44CSMTU0LTAwMTYg5p2x5Lqs6YO95LiW55Sw6LC35Yy65bym5be777yS5LiB55uu77yZ4oiS77yR77yTIOmnkumbu-ODk-ODqw!5e0!3m2!1sja!2sjp!4v1642133983133!5m2!1sja!2sjp" width="100" height="auto" frameborder="0" style="border:0;" allowfullscreen></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.0711354790105!2d139.613178415258!3d35.65061898020153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f3da32d47f5d%3A0x71124950d0ddd1ee!2z44CSMTU3LTAwNzEg5p2x5Lqs6YO95LiW55Sw6LC35Yy65Y2D5q2z5Y-w77yT5LiB55uu77yZ4oiS77yWIOOCteODs-OCsOODrOODvOOCueWNg-ats-WPsA!5e0!3m2!1sja!2sjp!4v1642254338270!5m2!1sja!2sjp" width="100" height="auto" frameborder="0" style="border:0;" allowfullscreen></iframe>
     </div> 
    </div>
   </div>
