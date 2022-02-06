@@ -20,4 +20,5 @@ Route::get('/', function () {
 //Route::get('/','App\Http\Controllers\storeController@turumaki');
 //Route::get('titosedai','App\Http\Controllers\storeController@titosedai');
 //Route::get('turusmart','App\Http\Controllers\storeController@turusmart');
-Route::get('/','App\Http\Controllers\storeController@turusmart');
+////Route::get('titosesmart','App\Http\Controllers\storeController@titosesmart');
+/*テストコード*/Route::get('/','App\Http\Controllers\storeController@turusmart');

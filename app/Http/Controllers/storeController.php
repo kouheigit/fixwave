@@ -78,4 +78,26 @@ class storeController extends Controller
 
 		//return view('pc.turusmart');
 	}
+	public function titosesmart(Request $request)
+	{
+	    
+	     $day = new Carbon();
+	     $value = $day->dayOfWeek;/*曜日番号を取得*/
+	    
+             if($value==4){
+                     //木曜日
+                     $value=4;
+
+                }elseif($value==5){
+                     //金曜日
+                     $value=5;
+
+                }else{
+
+                        $value = null;
+
+              }
+                /*曜日のロジックは上と同じにするな*/
+		return view('pc.titosesmart',compact('value'));
+	}
 }

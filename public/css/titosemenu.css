@@ -10,7 +10,7 @@ dd{
 	color:#000000;
 }
 dd.interval{
-	color:#ffe0fa; /*#000080;*/
+	color:#94faff; /*#2a9eeb; #000080;*/
 }
 dd.storename {
 	margin-left:20px;
@@ -18,7 +18,7 @@ dd.storename {
 .menubar{
 	box-shadow: 0px 8px 5px -5px rgba(0,0,0,0.5);/*影を追加した*/
 	width: 100%;
-	background: #ffe0fa;/*#2a9eeb; #000080;*/
+	background:/*#2a9eeb;*/ #94faff;
         position:fixed;
         z-index: 80;
         top: 0;
