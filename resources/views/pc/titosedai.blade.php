@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <!--SEO対策用タグを忘れるな-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>クリーニングWAVE　千歳台店</title>
     <meta name="description" content="ページの内容を説明する">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script><!--スライダー-->
      <script src="{{ asset('js/scroll.js') }}"></script>
+    <script src="{{ asset('js/judge1.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('css/titosedai.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('css/slick-theme.css') }}">
@@ -30,9 +32,9 @@
   </div>
   <!--スライドショー-->
     <ul class="slider">
+      <img src="{{ asset('img/pcplate5.png') }}">
       <img src="{{ asset('img/pcplate2.jpg') }}">
       <img src="{{ asset('img/pcplate1.jpg') }}">
-      <img src="{{ asset('img/pcplate5.png') }}">
       <img src="{{ asset('img/pcplate3.jpg') }}">
     </ul>
    @if ($value == 4)
