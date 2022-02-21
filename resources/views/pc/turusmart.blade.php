@@ -24,8 +24,7 @@
    <dd class="interval">.</dd>
    <dd>クリーニングWAVE 弦巻店</dd>
    <dd class="storename">☎︎03-5477-1613</dd>
-   <!--<dd>test</dd>
-   <dd>test</dd>-->
+   <dd class="interval">.</dd>
   </div>
   </div>
    <nav>
@@ -41,7 +40,6 @@
          <li><a href="titosesmart">千歳台本店について<br>Titosedai store</a></li>
        </ul>
      </div>
-     <dd>.</dd>
    </div>
    </nav>
    <!--スライドショー-->
