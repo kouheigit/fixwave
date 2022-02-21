@@ -123,7 +123,7 @@
     <p class="maptitle">店舗情報</p>
     <p class="subtitle">クリーニングWAVE【千歳台店】</p>
     <p>【営業時間】</p>
-    <p>月曜〜土曜日AM9:00~PM7:00<br>日曜祝日AM10:00~PM6:00</p>
+    <p>月曜〜日曜日AM9:00~PM7:00<br>日曜祝日AM10:00~PM6:00</p>
     <p class="restday">定休日なし</p>
     <p class="tel">☎︎ 03-3483-5572</p>
     <p class="address">〒157-0071<br>東京都世田谷区千歳台３丁目９−６<br>サングレース千歳台1階</p>
