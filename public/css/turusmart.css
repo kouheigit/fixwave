@@ -7,7 +7,9 @@
 body{
        background-color:#f7f7f7;  /*bodyの背景、全てのページの背景色にする*/
 }
-
+dd.storename{
+	font-weight:bold;
+}
 #content2{
         width:95%;
         padding-top:30px;

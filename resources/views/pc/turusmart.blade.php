@@ -22,7 +22,7 @@
  <div class="content">
   <div class="menubar">
    <dd class="interval">.</dd>
-   <dd>クリーニングWAVE 弦巻店</dd>
+   <dd class="storename">クリーニングWAVE 弦巻店</dd>
    <dd class="storename">☎︎03-5477-1613</dd>
    <dd class="interval">.</dd>
   </div>
