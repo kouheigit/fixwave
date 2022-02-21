@@ -27,6 +27,7 @@
    <!--<dd>test</dd>
    <dd>test</dd>-->
   </div>
+  </div>
    <nav>
     <input id="gnav-input" type="checkbox" class="gnav-hidden">
      <label id="gnav-btn" for="gnav-input"></label>
