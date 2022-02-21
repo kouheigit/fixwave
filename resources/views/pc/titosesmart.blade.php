@@ -21,7 +21,7 @@
   <body>
  <div class="content">
   <div class="menubar">
-   <!--<dd class="interval">.</dd>-->
+   <dd class="interval">.</dd>
    <dd>クリーニングWAVE 千歳台店</dd>
    <dd class="storename">☎︎03-3483-5572</dd>
    <!--<dd>test</dd>
