@@ -41,6 +41,7 @@
          <li><a href="titosesmart">千歳台本店について<br>Titosedai store</a></li>
        </ul>
      </div>
+     <dd>.</dd>
    </div>
    </nav>
    <!--スライドショー-->
