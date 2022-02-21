@@ -70,12 +70,12 @@ p.text{
 }
 p.text1{
         font-size:13px;
-      /*  font-weight: bold;*/
+        font-weight: bold;
 	padding-bottom:30px;
 }
 p.text2{
         font-size:13px;
- /*       font-weight: bold;*/
+        font-weight: bold;
 }
 #content5{
         /*'background:#CCFFFF;  後で消せ*/
