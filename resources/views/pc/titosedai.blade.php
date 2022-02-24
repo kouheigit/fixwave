@@ -86,7 +86,7 @@
     <div class="servicecontent">
       <h2 class="title" >サービスその2</h2>
       <img src="{{ asset('img/titoseservice2.png') }}">
-      <p>Yシャツセール(立体)弦巻店は毎週火曜日、水曜日におこないます。<br>但し特殊な品物は除きます。</p>
+      <p>Yシャツセール(立体)千歳台店は毎週木曜日、金曜日におこないます。<br>但し特殊な品物は除きます。</p>
     </div>
     </dl>
 
