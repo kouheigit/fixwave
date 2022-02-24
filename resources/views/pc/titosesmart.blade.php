@@ -98,7 +98,7 @@
    </div>
      <div class="sixitem">
     <p class="sixtitle">サービスその2</p>
-     <img src="{{ asset('img/smartplate2.png') }}">
+     <img src="{{ asset('img/titosesmartplate2.jpg') }}">
      <p class="sixmain">Yシャツセール(立体)弦巻店は毎週火曜日、水曜日におこないます。
 但し特殊な品物は除きます。</p>
    </div>
