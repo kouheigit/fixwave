@@ -22,8 +22,8 @@
  <div class="content">
   <div class="menubar">
    <dd class="interval">.</dd>
-   <dd>クリーニングWAVE 千歳台店</dd>
-   <dd class="storename">☎︎03-3483-5572</dd>
+   <dd class="storename">クリーニングWAVE 千歳台店</dd>
+   <dd>☎︎03-3483-5572</dd>
    <dd class="interval">.</dd>
   </div>
   </div>
@@ -98,8 +98,8 @@
    </div>
      <div class="sixitem">
     <p class="sixtitle">サービスその2</p>
-     <img src="{{ asset('img/titosesmartplate2.jpg') }}">
-     <p class="sixmain">Yシャツセール(立体)弦巻店は毎週火曜日、水曜日におこないます。
+     <img src="{{ asset('img/titosesmartplate2.png') }}">
+     <p class="sixmain">Yシャツセール(立体)千歳台店は毎週木曜日、金曜日におこないます。
 但し特殊な品物は除きます。</p>
    </div>
      <div class="sixitem">
