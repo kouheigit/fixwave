@@ -52,9 +52,13 @@ img.saleimg{
         margin: 10px auto 0;
         text-align: center;
 }
-p.contenttitle1{
+h1.contenttitle1{
 	font-size:20px;
 	font-weight: bold; 
+}
+h2.contenttitle1{
+        font-size:20px;
+        font-weight: bold;
 }
 p.text{
 	display: inline-block;/*文字に合わせた横線の幅にする*/
@@ -96,7 +100,7 @@ p.text2{
     border-radius: 50%;
     border: 9px solid #FFFF00;
 }
-p.fivetitle{
+h3.fivetitle{
 	 margin-top:10px;
 	 font-size:15px;
          font-weight: bold;
@@ -113,7 +117,7 @@ p.fivetitle{
 .sixitem{
 	margin-top:50px;
 }
-p.sixtitle{
+h3.sixtitle{
         display: inline-block;/*文字に合わせた横線の幅にする*/
         background: linear-gradient(transparent 70%, #FFFF00 0%);
          margin-top:10px;
