@@ -122,11 +122,17 @@ span.pic1{
         margin: 40px auto 0;
         text-align: center;
 }
-h1.servicetitle{
+
+p.maintitle{
+	 display: inline-block;
+	 font-size:30px;
+	 font-weight:bold;
+}
+h2.servicetitle{
 	 display: inline-block;
 	 background: linear-gradient(transparent 70%, #FFFF66 0%);
 }
-h2.title {
+h3.title {
 	 margin:30px;
 	 display: inline-block;
 	 background: linear-gradient(transparent 70%, #FFFF66 0%);
