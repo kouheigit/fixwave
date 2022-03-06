@@ -2,7 +2,7 @@
 <html>
  <head>
     <meta charset="UTF-8">
-    <!--SEO対策用タグを忘れるな-->
+    <meta name="google-site-verification" content="rXDKaZCfiH7DGR4LYC6NvOstoaez0M8O6c6EQ4bEXx0" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>クリーニングWAVE 弦巻店</title>
     <meta name="description" content="弦巻のクリーニングならクリーニングWAVE 弦巻店にお任せ！あなたの衣服をもう一回輝かせるという二つの理念をモットーに、妥協をしないキレイな仕上げを心がけ開業から30年、弦巻のこだわりのあるクリーニング店として地域に愛されて営業してきました。">
