@@ -125,7 +125,7 @@
     <h2 class="maptitle">店舗情報</h2>
     <p class="subtitle" itemprop="name">クリーニングWAVE【弦巻店】</p>
     <p>【営業時間】</p>
-    <p itemprop="openingHours">月曜〜土曜日AM10:00~PM7:00<br>日曜祝日AM10:00~PM6:00</p>
+    <p itemprop="openingHours">月曜〜土曜日AM10:00~PM7:00<br>日曜・祝日AM10:00~PM6:00</p>
     <p class="restday">定休日金曜日</p>
     <p class="tel" itemprop="telephone">☎︎ 03-5477-1613</p>
     <p class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">〒<span itemprop="postalCode">154-0016</span><br><span itemprop="addressRegion">東京都</span><span itemprop="addressLocality">世田谷区</span><span itemprop="streetAddress">弦巻２丁目9-13駒電ビル１階</span></p>
