@@ -34,7 +34,7 @@
   </div>
   <!--スライドショー-->
     <ul class="slider">
-      <!--<img src="{{ asset('img/pcspring.png') }}" alt="春のクリーニングセール">-->
+      <img src="{{ asset('img/summersale.png') }}" alt="千歳台サマーセール">
       <img src="{{ asset('img/pcplate5.png') }}" alt="Yシャツセール176円">
       <img src="{{ asset('img/pcplate2.jpg') }}" alt="とことん染み抜き">
       <img src="{{ asset('img/pcplate1.jpg') }}" alt="Wクリーニング無料">
