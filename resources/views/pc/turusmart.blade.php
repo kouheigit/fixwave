@@ -47,7 +47,7 @@
    <!--スライドショー-->
   <div id ="content2">
     <ul class="slider">
-      <img src="{{ asset('img/turusmartsummer.png') }}" alt="弦巻サマーセール">
+     <!--<img src="{{ asset('img/turusmartsummer.png') }}" alt="弦巻サマーセール">-->
       <img src="{{ asset('img/plate4.jpg') }}" alt="Yシャツセール">
       <img src="{{ asset('img/plate.jpg') }}" alt="Wクリーニング無料">
       <img src="{{ asset('img/plate2.jpg') }}" alt="とことん染み抜き">
