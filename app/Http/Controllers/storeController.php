@@ -30,8 +30,17 @@ class storeController extends Controller
 
 			$value = null;
 
-	      }	
-                return view('pc.turumaki',compact('value'));
+		}
+
+	     $day_1 = new Carbon("2022-11-15");
+	     $day_2 = new Carbon("2022-11-30");
+
+	     if($day > $day_1){
+		     $day = 1;
+	     }elseif($day_2 > $day){
+		     $day = 0;
+	     }
+                return view('pc.turumaki',compact('value','day'));
 	}
 
 	public function titosedai(Request $request)
@@ -50,9 +59,18 @@ class storeController extends Controller
 
                         $value = null;
 
-              }
+		}
+	       //day_1は開始日、day2は終了日
+	       $day_1 = new Carbon("2022-11-15");
+	       $day_2 = new Carbon("2022-11-30");
+
+          	if($day > $day_1){
+                      $day = 1;
+                 }elseif($day_2 > $day){
+                      $day = 0;
+                }
 		/*曜日のロジックは上と同じにするな*/
-		return view('pc.titosedai',compact('value'));
+		return view('pc.titosedai',compact('value','day'));
 	}
 
 	public function turusmart(Request $request)
@@ -72,8 +90,18 @@ class storeController extends Controller
 
                         $value = null;
 
-              }
-                return view('pc.turusmart',compact('value'));
+		}
+	        
+	       //day_1は開始日、day_2は終了日
+               $day_1 = new Carbon("2022-11-15");
+               $day_2 = new Carbon("2022-11-30");
+
+                if($day > $day_1){
+                      $day = 1;
+                 }elseif($day_2 > $day){
+                      $day = 0;
+                }
+                return view('pc.turusmart',compact('value','day'));
 
 
 		//return view('pc.turusmart');
@@ -96,8 +124,18 @@ class storeController extends Controller
 
                         $value = null;
 
-              }
+		}
+
+               $day_1 = new Carbon("2022-11-15");
+               $day_2 = new Carbon("2022-11-30");
+
+                if($day > $day_1){
+                      $day = 1;
+                 }elseif($day_2 > $day){
+                      $day = 0;
+                }
+
                 /*曜日のロジックは上と同じにするな*/
-		return view('pc.titosesmart',compact('value'));
+		return view('pc.titosesmart',compact('value','day'));
 	}
 }

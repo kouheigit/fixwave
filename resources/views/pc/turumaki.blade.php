@@ -23,7 +23,7 @@
    <h1 class="titles">クリーニングWAVE　弦巻店</h1>
   <!--メニューバー-->
     <nav>
-     <ul class="menu">
+     <ul class="menu">	
        <li><a href="#content"><img src="{{ asset('img/menupic2.png') }}" width="60px" height="60px" alt="トップ">トップ</a></li>
        <li><a href="#content2"><img src="{{ asset('img/menupic3.png') }}" width="60px" height="60px" alt="当店について">当店について</a></li>
        <li><a href="#content3"><img src="{{ asset('img/menupic.png') }}" width="60px" height="50px" alt="4つのサービス">4つのサービス</a></li>
@@ -34,6 +34,10 @@
   </div>
   <!--スライドショー-->
     <ul class="slider">
+    @if($day==1)
+         <img src="{{ asset('img/turuautumn2.png') }}" alt="秋の衣替えセール">
+     @else
+     @endif
     <!-- <img src="{{ asset('img/turuautumn.png') }}" alt="秋の衣替えセール">-->
       <img src="{{ asset('img/pcplate2.jpg') }}" alt="とことん染み抜き">
       <img src="{{ asset('img/pcplate1.jpg') }}" alt="Wクリーニング無料">
