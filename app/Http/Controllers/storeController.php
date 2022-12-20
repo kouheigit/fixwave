@@ -33,14 +33,15 @@ class storeController extends Controller
 		}
 
 	     $day_1 = new Carbon("2022-12-20");
-	     $day_2 = new Carbon("2022-12-30");
-
+	     $day_2 = new Carbon("2022-12-29");
+	     
 	     if($day >= $day_1){
 		     $day = 1;
 	     }
-	     if($day_2 > $day){
+	     /*
+	     if($day_2 >= $day){
 		     $day = 0;
-	     }
+	     }*/
                 return view('pc.turumaki',compact('value','day'));
 	}
 
@@ -68,10 +69,10 @@ class storeController extends Controller
           	if($day >= $day_1){
                       $day = 1;
 		}
-	       
+	      /*
 	       if($day_2 > $day){
                       $day = 0;
-                }
+	       }*/
 		/*曜日のロジックは上と同じにするな*/
 		return view('pc.titosedai',compact('value','day'));
 	}
@@ -101,10 +102,10 @@ class storeController extends Controller
 
                 if($day >= $day_1){
                       $day = 1;
-		}
+		}/*
 	        if($day_2 > $day){
                       $day = 0;
-	       }
+		}*/
                 return view('pc.turusmart',compact('value','day'));
 
 
@@ -136,9 +137,10 @@ class storeController extends Controller
                 if($day >= $day_1){
                       $day = 1;
 		}
+	       /*
 		if($day_2 > $day){
                       $day = 0;
-                }
+		}*/
 
                 /*曜日のロジックは上と同じにするな*/
 		return view('pc.titosesmart',compact('value','day'));
