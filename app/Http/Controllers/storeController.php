@@ -32,12 +32,13 @@ class storeController extends Controller
 
 		}
 
-	     $day_1 = new Carbon("2022-11-15");
-	     $day_2 = new Carbon("2022-11-30");
+	     $day_1 = new Carbon("2022-12-20");
+	     $day_2 = new Carbon("2022-12-30");
 
-	     if($day > $day_1){
+	     if($day >= $day_1){
 		     $day = 1;
-	     }elseif($day_2 > $day){
+	     }
+	     if($day_2 > $day){
 		     $day = 0;
 	     }
                 return view('pc.turumaki',compact('value','day'));
@@ -61,12 +62,14 @@ class storeController extends Controller
 
 		}
 	       //day_1は開始日、day2は終了日
-	       $day_1 = new Carbon("2022-11-15");
-	       $day_2 = new Carbon("2022-11-30");
+	       $day_1 = new Carbon("2022-12-20");
+	       $day_2 = new Carbon("2022-12-30");
 
-          	if($day > $day_1){
+          	if($day >= $day_1){
                       $day = 1;
-                 }elseif($day_2 > $day){
+		}
+	       
+	       if($day_2 > $day){
                       $day = 0;
                 }
 		/*曜日のロジックは上と同じにするな*/
@@ -93,14 +96,15 @@ class storeController extends Controller
 		}
 	        
 	       //day_1は開始日、day_2は終了日
-               $day_1 = new Carbon("2022-11-15");
-               $day_2 = new Carbon("2022-11-30");
+               $day_1 = new Carbon("2022-12-20");
+               $day_2 = new Carbon("2022-12-30");
 
-                if($day > $day_1){
+                if($day >= $day_1){
                       $day = 1;
-                 }elseif($day_2 > $day){
+		}
+	        if($day_2 > $day){
                       $day = 0;
-                }
+	       }
                 return view('pc.turusmart',compact('value','day'));
 
 
@@ -126,12 +130,13 @@ class storeController extends Controller
 
 		}
 
-               $day_1 = new Carbon("2022-11-15");
-               $day_2 = new Carbon("2022-11-30");
+               $day_1 = new Carbon("2022-12-20");
+               $day_2 = new Carbon("2022-12-30");
 
-                if($day > $day_1){
+                if($day >= $day_1){
                       $day = 1;
-                 }elseif($day_2 > $day){
+		}
+		if($day_2 > $day){
                       $day = 0;
                 }
 

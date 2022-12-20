@@ -48,7 +48,7 @@
   <div id ="content2">
     <ul class="slider">
       @if($day==1)
-<!--<img src="{{ asset('img/turuautumnsmart2.png') }}" alt="秋の衣替えセール">-->
+      <img src="{{ asset('img/turuautumnsmart2.png') }}" alt="冬の衣替えセール">
       @else
       @endif
      <!--<img src="{{ asset('img/turuautumnsmart.png') }}" alt="秋の衣替えセール">-->
