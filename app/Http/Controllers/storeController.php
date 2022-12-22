@@ -17,6 +17,7 @@ class storeController extends Controller
 	土　・・・　6*/
 	/* いじったディレクトリ一覧→app config resources routes routes  */
 	     $day = new Carbon();
+             $days = $day->toDateTimeString();
              $value = $day->dayOfWeek;/*曜日番号を取得*/
 	     if($value==2){
                      //火曜日
@@ -32,22 +33,21 @@ class storeController extends Controller
 
 		}
 
-	     $day_1 = new Carbon("2022-12-20");
-	     $day_2 = new Carbon("2022-12-29");
-	     
-	     if($day >= $day_1){
+	     $day_2 = new Carbon("2022-12-30");
+
+	     if($day_2 > $days){
 		     $day = 1;
+	     }else{
+                $day = 0;
 	     }
-	     /*
-	     if($day_2 >= $day){
-		     $day = 0;
-	     }*/
+
                 return view('pc.turumaki',compact('value','day'));
 	}
 
 	public function titosedai(Request $request)
 	{
-	    $day = new Carbon();
+	     $day = new Carbon();
+             $days = $day->toDateTimeString();
              $value = $day->dayOfWeek;/*曜日番号を取得*/
              if($value==4){
                      //木曜日
@@ -62,24 +62,21 @@ class storeController extends Controller
                         $value = null;
 
 		}
-	       //day_1は開始日、day2は終了日
-	       $day_1 = new Carbon("2022-12-20");
 	       $day_2 = new Carbon("2022-12-30");
 
-          	if($day >= $day_1){
-                      $day = 1;
-		}
-	      /*
-	       if($day_2 > $day){
-                      $day = 0;
-	       }*/
-		/*曜日のロジックは上と同じにするな*/
+                if($day_2 > $days){
+                    $day = 1;
+                }else{
+                  $day = 0;
+               }
+
 		return view('pc.titosedai',compact('value','day'));
 	}
 
 	public function turusmart(Request $request)
 	{    
 	     $day = new Carbon();
+             $days = $day->toDateTimeString();
              $value = $day->dayOfWeek;/*曜日番号を取得*/
 	    
 	     if($value==2){
@@ -95,17 +92,14 @@ class storeController extends Controller
                         $value = null;
 
 		}
-	        
-	       //day_1は開始日、day_2は終了日
-               $day_1 = new Carbon("2022-12-20");
-               $day_2 = new Carbon("2022-12-30");
+	       
+	         $day_2 = new Carbon("2022-12-30");
 
-                if($day >= $day_1){
-                      $day = 1;
-		}/*
-	        if($day_2 > $day){
-                      $day = 0;
-		}*/
+                 if($day_2 > $days){
+                    $day = 1;
+                 }else{
+                    $day = 0;
+                 }
                 return view('pc.turusmart',compact('value','day'));
 
 
@@ -115,6 +109,7 @@ class storeController extends Controller
 	{
 	    
 	     $day = new Carbon();
+             $days = $day->toDateTimeString();
 	     $value = $day->dayOfWeek;/*曜日番号を取得*/
 	    
              if($value==4){
@@ -130,18 +125,14 @@ class storeController extends Controller
                         $value = null;
 
 		}
+	     
+	         $day_2 = new Carbon("2022-12-30");
 
-               $day_1 = new Carbon("2022-12-20");
-               $day_2 = new Carbon("2022-12-30");
-
-                if($day >= $day_1){
-                      $day = 1;
-		}
-	       /*
-		if($day_2 > $day){
-                      $day = 0;
-		}*/
-
+                 if($day_2 > $days){
+                     $day = 1;
+                 }else{
+                     $day = 0;
+                 }
                 /*曜日のロジックは上と同じにするな*/
 		return view('pc.titosesmart',compact('value','day'));
 	}
