@@ -49,7 +49,6 @@
     <ul class="slider">
       @if($day==1)
 	<img src="{{ asset('img/titoseautumnsmart2.png') }}"alt="冬の衣替えセール">
-      @else
       @endif
       <!--<img src="{{ asset('img/titoseautumnsmart.png') }}" alt="秋の衣替えセール">-->
       <img src="{{ asset('img/plate5.jpg') }}" alt="Yシャツセール176円">
