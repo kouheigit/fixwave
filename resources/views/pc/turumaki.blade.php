@@ -22,6 +22,7 @@
   <div id="content">
    <h1 class="titles">クリーニングWAVE　弦巻店</h1>
   <!--メニューバー-->
+  <!--テスト-->
     <nav>
      <ul class="menu">	
        <li><a href="#content"><img src="{{ asset('img/menupic2.png') }}" width="60px" height="60px" alt="トップ">トップ</a></li>
