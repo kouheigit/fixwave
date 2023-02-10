@@ -33,7 +33,7 @@ class storeController extends Controller
 
 		}
 
-	     $day_2 = new Carbon("2022-12-30");
+	     $day_2 = new Carbon("2023-2-28");
 
 	     if($day_2 > $days){
 		     $day = 1;
@@ -62,7 +62,7 @@ class storeController extends Controller
                         $value = null;
 
 		}
-	       $day_2 = new Carbon("2022-12-30");
+	       $day_2 = new Carbon("2023-2-28");
 
                 if($day_2 > $days){
                     $day = 1;
@@ -93,7 +93,7 @@ class storeController extends Controller
 
 		}
 	       
-	         $day_2 = new Carbon("2022-12-30");
+	         $day_2 = new Carbon("2023-2-28");
 
                  if($day_2 > $days){
                     $day = 1;
@@ -126,7 +126,7 @@ class storeController extends Controller
 
 		}
 	     
-	         $day_2 = new Carbon("2022-12-30");
+	         $day_2 = new Carbon("2023-2-28");
 
                  if($day_2 > $days){
                      $day = 1;
