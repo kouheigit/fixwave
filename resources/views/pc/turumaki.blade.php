@@ -39,6 +39,7 @@
      <img src="{{ asset('img/turusale.png') }}" alt="セール">
      @endif
     <!-- <img src="{{ asset('img/turuautumn.png') }}" alt="秋の衣替えセール">-->
+    <!--testmessage-->
       <img src="{{ asset('img/pcplate2.jpg') }}" alt="とことん染み抜き">
       <img src="{{ asset('img/pcplate1.jpg') }}" alt="Wクリーニング無料">
       <img src="{{ asset('img/pcplate4.png') }}" alt="Yシャツセール">
