@@ -35,7 +35,7 @@
   <!--スライドショー-->
     <ul class="slider">
      @if($day==1)
-       <img src="{{ asset('img/springpc.png') }}" alt="春の大セール">
+       <img src="{{ asset('img/titosesale7.png') }}" alt="セール">
       @endif
     <!-- <img src="{{ asset('img/titoseautumn.png') }}" alt="秋の衣替えセール">-->
       <img src="{{ asset('img/pcplate5.png') }}" alt="Yシャツセール176円">
